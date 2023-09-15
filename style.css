@@ -1,0 +1,18 @@
+/* id */
+#datDz {
+    background-color: aqua;
+    color: rgb(247, 28, 9);
+    width: 50%;
+    height: 30px;
+    font-weight: bold;
+    border: 1px solid rgb(246, 25, 205);
+}
+
+/* class */
+.dat-dz {
+    background-color: rgb(255, 255, 255);
+    color: rgb(232, 31, 229);
+    width: 50%;
+    height: 30px;
+    font-weight: lighter;
+}

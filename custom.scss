@@ -1,0 +1,98 @@
+/* reset margin, padding */
+body {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.red {
+    border: 1px solid red;
+}
+
+.green {
+    border: 1px solid green;
+}
+
+/* tao class banner */
+.banner {
+    height: 500px;
+    background: url('./ảnh/banner.jpg') center center no-repeat;
+    padding: 20px;
+
+    .about-sign-in {
+        height: 80px;
+        width: 100%;
+        text-align: right;
+
+        .about,
+        .sign-in {
+            margin-top: 28px;
+            padding: 11px 15px;
+            text-decoration: none;
+            text-transform: uppercase;
+            display: inline-block;
+        }
+
+        .sign-in {
+            color: green;
+            margin-right: 60px;
+            margin-left: 25px;
+            border-radius: 20px;
+            border: 3px solid green;
+        }
+    }
+
+    .logo {
+        background: url('./ảnh/hapoERP.png') center center no-repeat;
+        margin-top: 40px;
+        height: 100px;
+    }
+
+    .text {
+        text-align: center;
+        margin-top: 30px;
+
+        span {
+            display: block;
+            font-size: 20px;
+        }
+    }
+
+    .content-center {
+
+        .left,
+        .center,
+        .right {
+            display: inline-block;
+            width: 33%;
+            text-align: center;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        span {
+            display: block;
+            font-size: 20px;
+        }
+
+        img {
+            width: 30px;
+            height: 30px;
+        }
+    }
+
+    .btn-start-now {
+        text-align: center;
+
+        button {
+            text-transform: uppercase;
+            padding: 10px 15px;
+            border-radius: 20px;
+            border: 2px solid rgb(27, 187, 27);
+            color: aliceblue;
+            margin-top: 25px;
+            background-color: green;
+            cursor: pointer;
+        }
+
+    }
+}
